@@ -37,7 +37,7 @@
  * SPI SCK     SCK          13 / ICSP-3   52        D13        ICSP-3           15
  */
 
-#define NUM_LEDS    200
+#define NUM_LEDS    138
 
 #define BRIGHTNESS  30
 #define LED_TYPE    WS2812B
@@ -466,13 +466,14 @@ const unsigned int PROGMEM character_nuid_four[NUM_NUIDS] =
  {DISP_COLOR_PINK, DISP_COLOR_BLUE, DISP_COLOR_GREEN},                       // ch Ice Cream 3 - In hex:  A0 A4 B7 51 In dec:  160 164 183 81
  {DISP_COLOR_WHITE, DISP_COLOR_RED, DISP_COLOR_WHITE},                       // ci Fia 1 In hex:  1C 37 72 17 In dec:  28 55 114 23
  {DISP_COLOR_PURPLE, DISP_COLOR_PURPLE, DISP_COLOR_PINK},                    // cj Kaia 1 In hex:  3C 79 71 17 In dec:  60 121 113 23
- {DISP_COLOR_TEAL, DISP_COLOR_TEAL, DISP_COLOR_TEAL},                        // ck Jasmine New (Green) - In hex:  C3 64 80 61  In dec:  195 100 128 97
- {DISP_COLOR_FAIRY_LIGHT, DISP_COLOR_DARK_TURQ, DISP_COLOR_FAIRY_LIGHT},     // cl Pocahontas New - In hex:  53 B6 80 61  In dec:  83 182 128 97
- {DISP_COLOR_DARK_RED, DISP_COLOR_BLUE, DISP_COLOR_YELLOW},                  // cm Snow White New (Dress) - In hex:  93 18 81 61  In dec:  147 24 129 97
- {DISP_COLOR_MINT, DISP_COLOR_MINT, DISP_COLOR_SEA_GREEN},                   // cn Tiana New (Green) - In hex:  83 67 81 61  In dec:  131 103 129 97
- {DISP_COLOR_DEEP_SKY_BLUE, DISP_COLOR_DARK_BLUE, DISP_COLOR_RED},           // co Mulan New (Dress) - In hex:  93 CA 81 61  In dec:  147 202 129 97
- {DISP_COLOR_PINK, DISP_COLOR_YELLOW, DISP_COLOR_PINK},                      // cp Aurora New (Pink) - In hex:  F3 F6 5B 61  In dec:  243 246 91 97
- {DISP_COLOR_YELLOW, DISP_COLOR_YELLOW, DISP_COLOR_YELLOW}                   // cq Belle New (Yellow) - In hex:  E3 6E 82 61  In dec:  227 110 130 97
+ {DISP_COLOR_BLUE, DISP_COLOR_YELLOW, DISP_COLOR_BLUE},                      // ck Cinderella 1 (Blue) - Hex: E0 7A B7 51 Dec:  224 122 183 81
+ {DISP_COLOR_TEAL, DISP_COLOR_TEAL, DISP_COLOR_TEAL},                        // cl Jasmine New (Green) - In hex:  C3 64 80 61  In dec:  195 100 128 97
+ {DISP_COLOR_FAIRY_LIGHT, DISP_COLOR_DARK_TURQ, DISP_COLOR_FAIRY_LIGHT},     // cm Pocahontas New - In hex:  53 B6 80 61  In dec:  83 182 128 97
+ {DISP_COLOR_DARK_RED, DISP_COLOR_BLUE, DISP_COLOR_YELLOW},                  // cn Snow White New (Dress) - In hex:  93 18 81 61  In dec:  147 24 129 97
+ {DISP_COLOR_MINT, DISP_COLOR_MINT, DISP_COLOR_SEA_GREEN},                   // co Tiana New (Green) - In hex:  83 67 81 61  In dec:  131 103 129 97
+ {DISP_COLOR_DEEP_SKY_BLUE, DISP_COLOR_DARK_BLUE, DISP_COLOR_RED},           // cp Mulan New (Dress) - In hex:  93 CA 81 61  In dec:  147 202 129 97
+ {DISP_COLOR_PINK, DISP_COLOR_YELLOW, DISP_COLOR_PINK},                      // cq Aurora New (Pink) - In hex:  F3 F6 5B 61  In dec:  243 246 91 97
+ {DISP_COLOR_YELLOW, DISP_COLOR_YELLOW, DISP_COLOR_YELLOW}                   // cr Belle New (Yellow) - In hex:  E3 6E 82 61  In dec:  227 110 130 97
  };
 
  
